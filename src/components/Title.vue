@@ -5,5 +5,11 @@ export default {
 </script>
 
 <template>
-    <h1>La mia prima app con Vite</h1>
+    <h1 class="read-the-docs">La mia prima app con Vite</h1>
 </template>
+
+<style scoped>
+.read-the-docs {
+  color: #00ff15;
+}
+</style>

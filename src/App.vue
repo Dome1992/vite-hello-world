@@ -1,5 +1,12 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import Title from './components/Title.vue'
+
+export default{
+
+  components: {
+    Title
+  }
+}
 </script>
 
 <template>
